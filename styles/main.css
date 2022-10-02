@@ -17,19 +17,38 @@ a {
 }
 
 button {
+    background-color: #3882F6;;
+}
 
+h1, 
+h2 {
+    font-weight: bold;
 }
 
 h1 {
-
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
 
+.header,
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .header {
 
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .hero {
@@ -45,13 +64,16 @@ h2 {
 }
 
 .quote {
-
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
 }
 
 .signup {
-
+    background-color: #3882F6;
 }
 
 .footer {
-    
+
 }
