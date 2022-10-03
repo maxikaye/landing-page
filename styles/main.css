@@ -4,7 +4,7 @@ html {
     box-sizing: border-box;
 }
 
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
 }
@@ -13,9 +13,6 @@ body {
     min-height: 100vh;
     background-color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 a {
@@ -42,6 +39,13 @@ h2 {
     color: #1F2937;
 }
 
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.nav-bar,
 .header,
 .footer {
     background-color: #1F2937;
@@ -53,10 +57,9 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 16px 96px;
 }
 
-.menu-bar {
+.nav-bar .container {
     display: flex;
     justify-content: space-between;
 }
@@ -72,7 +75,7 @@ h2 {
     gap: 16px;
 }
 
-.hero {
+.header {
 
 }
 
@@ -85,7 +88,7 @@ h2 {
 }
 
 .quote {
-    padding: 96px;
+    padding: 96px 0;
     background-color: #E5E7EB;
     font-size: 36px;
     font-weight: 100;
