@@ -53,12 +53,6 @@ h2 {
     font-size: 18px;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
 .nav-bar .container {
     display: flex;
     justify-content: space-between;
@@ -76,7 +70,7 @@ h2 {
 }
 
 .header {
-
+  
 }
 
 .information {
@@ -87,21 +81,25 @@ h2 {
 
 }
 
+.quote .container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .quote {
-    padding: 96px 0;
+    padding: 0 96px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
     color: #1f2937;
-    display: flex;
-    flex-direction: column;;
-    align-items: center;
 }
 
 .quote-author {
-    padding-top: 8px;
-    margin-right: 24px;
+    padding: 8px 48px 0 0;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
