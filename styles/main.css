@@ -85,7 +85,25 @@ h2 {
 }
 
 .header {
-  
+    min-height: 200px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.header-text p {
+    max-width: 600px;
+    margin-bottom: 16px;
+}
+
+.header img {
+    width: 350px;
+    height: 150px;
+    border: 1px solid grey;
 }
 
 .information {
