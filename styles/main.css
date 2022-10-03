@@ -21,7 +21,17 @@ a {
 }
 
 button {
-    background-color: #3882F6;;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+button:hover, 
+button:focus {
+    background-color: #074fc2;
 }
 
 h1, 
@@ -113,6 +123,10 @@ h2 {
 
 .signup {
     background-color: #3882F6;
+}
+
+.signup button {
+    border: 1px solid #F9FAF8;
 }
 
 .footer {
