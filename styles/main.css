@@ -13,6 +13,9 @@ body {
     min-height: 100vh;
     background-color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
 }
 
 a {
@@ -174,7 +177,6 @@ h2 {
 }
 
 .signup .container {
-    min-height: 300px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
